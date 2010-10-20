@@ -1,4 +1,4 @@
-[B][b]in
-[O][o]bj
-_ReSharper.*
+[Bb]in/
+[Oo]bj/
+_ReSharper.*/
 Tomatito.csproj.user
