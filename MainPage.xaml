@@ -28,15 +28,13 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentGrid" Grid.Row="1">
             <TextBlock Height="209" HorizontalAlignment="Left" Margin="0,6,0,0" Name="textBlock1" Text="00:00" VerticalAlignment="Top" Width="474" FontSize="180" TextAlignment="Center" Foreground="#FF39DE39" />
-            <Button Content="Start" Height="151" HorizontalAlignment="Left" Margin="112,299,0,0" Name="button1" VerticalAlignment="Top" Width="265" Foreground="Black" Click="button1_Click" FontStretch="Normal" FontSize="48" FontFamily="Segoe WP" BorderBrush="Transparent">
-                <Button.Template>
-                    <ControlTemplate TargetType="Button">
-                        <Border Name="btnBorder" Background="{TemplateBinding Background}" CornerRadius="4">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
-                        </Border>
-                    </ControlTemplate>
-                </Button.Template>
-            </Button>
+            <Button Content="Start" Height="103" HorizontalAlignment="Left" Margin="116,384,0,0" Name="button1" VerticalAlignment="Top" Width="243" Click="CounterButtonClickHandler" />
+            <TextBlock Height="65" HorizontalAlignment="Left" Margin="28,259,0,0" Name="textBlock2" Text="" VerticalAlignment="Top" Width="420" FontSize="30" FontWeight="Bold" TextAlignment="Center" />
+            <Button Content="Add interruption" Height="72" HorizontalAlignment="Left" Margin="116,511,0,0" Name="button2" VerticalAlignment="Top" Width="243" FontFamily="Segoe WP SemiLight" FontSize="20" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="16,619,0,0" Name="textBlock3" Text="Pomodoros:" VerticalAlignment="Top" Width="132" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="16,655,0,0" Name="textBlock4" Text="Interruptions:" VerticalAlignment="Top" Width="132" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="154,619,0,0" Name="textBlock5" Text="0" VerticalAlignment="Top" Width="48" TextAlignment="Right" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="154,655,0,0" Name="textBlock6" Text="0" VerticalAlignment="Top" Width="48" TextAlignment="Right" />
         </Grid>
     </Grid>
     
