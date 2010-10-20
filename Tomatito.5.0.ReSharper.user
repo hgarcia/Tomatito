@@ -1,0 +1,123 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="displayTime`0" priority="1" />
+      <Item value="var" priority="0" />
+      <Item value="_pomodoro" priority="3" />
+      <Item value="seconds" priority="0" />
+      <Item value="minutes" priority="0" />
+      <Item value="textBlock2" priority="1" />
+      <Item value="textBlock1" priority="0" />
+      <Item value="new" priority="4" />
+      <Item value="SolidColorBrush`0" priority="1" />
+      <Item value="Color" priority="0" />
+      <Item value="Color`0" priority="0" />
+      <Item value="Microsoft" priority="1" />
+      <Item value="Devices" priority="1" />
+      <Item value="Environment`0" priority="1" />
+      <Item value="env" priority="0" />
+      <Item value="Radio" priority="0" />
+      <Item value="Start" priority="0" />
+      <Item value="Stop" priority="0" />
+      <Item value="clockDisplay" priority="0" />
+      <Item value="Colors`0" priority="0" />
+      <Item value="pomodorosLabel" priority="0" />
+      <Item value="pomodorosCount" priority="0" />
+      <Item value="PomodoroCount" priority="1" />
+      <Item value="interruptionsLabel" priority="0" />
+      <Item value="interruptionsCount" priority="0" />
+      <Item value="Interruptions" priority="0" />
+      <Item value="statusLabel" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="TimeSpan" priority="0" />
+      <Item value="_breakSpan" priority="2" />
+      <Item value="resetPomodoro`0" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="double" priority="0" />
+      <Item value="BreakDurationInSeconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Minutes" priority="2" />
+      <Item value="Seconds" priority="0" />
+      <Item value="TotalSeconds" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="Text" priority="4" />
+      <Item value="Foreground" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Color">
+      <Item value="FromArgb`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Media.Colors">
+      <Item value="Cyan" priority="0" />
+      <Item value="Yellow" priority="0" />
+      <Item value="Green" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Devices.Environment">
+      <Item value="DeviceType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml" caret="3256" fromTop="23" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="621" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml" caret="3401" fromTop="19" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="23" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="1" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="19" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="15" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="22" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="24" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml" caret="1936" fromTop="16" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="16" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="22" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="25" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="6" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="17" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="15" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="20" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml" caret="3313" fromTop="23" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="6" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="25" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="22" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="21" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="5" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="4298" fromTop="122" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="1175" fromTop="21" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="1318" fromTop="8" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="3551" fromTop="14" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="621" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
