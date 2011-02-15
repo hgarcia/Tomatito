@@ -128,5 +128,10 @@ namespace Tomatito
             Interruptions++;
             interruptionsCount.Text = Interruptions.ToString();
         }
+
+        private void help_button_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/HelpPage.xaml", UriKind.Relative));
+        }
     }
 }

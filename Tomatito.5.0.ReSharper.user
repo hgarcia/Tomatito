@@ -48,6 +48,8 @@
       <Item value="if" priority="0" />
       <Item value="double" priority="0" />
       <Item value="BreakDurationInSeconds" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.TimeSpan">
       <Item value="Minutes" priority="2" />
@@ -80,6 +82,7 @@
     <RecentFiles>
       <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml" caret="3256" fromTop="23" />
       <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="621" fromTop="16" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:App.xaml.cs" caret="2964" fromTop="24" />
     </RecentFiles>
     <RecentEdits>
       <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml" caret="3401" fromTop="19" />
@@ -108,6 +111,8 @@
       <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="1318" fromTop="8" />
       <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="3551" fromTop="14" />
       <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:MainPage.xaml.cs" caret="621" fromTop="16" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:App.xaml.cs" caret="2943" fromTop="16" />
+      <File id="DC9E4FC1-B3E9-4C59-8C26-57EB51DE8901/f:App.xaml.cs" caret="2979" fromTop="25" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

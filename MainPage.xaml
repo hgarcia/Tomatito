@@ -10,7 +10,7 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot contains the root grid where all other page content is placed-->
@@ -28,28 +28,23 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentGrid" Grid.Row="1">
             <TextBlock Height="209" HorizontalAlignment="Left" Margin="0,6,0,0" Name="clockDisplay" Text="00:00" VerticalAlignment="Top" Width="474" FontSize="180" TextAlignment="Center" Foreground="#FF39DE39" />
-            <Button Content="Start" Height="143" HorizontalAlignment="Left" Margin="116,384,0,0" Name="pomodoroButton" VerticalAlignment="Top" Width="243" Click="CounterButtonClickHandler" FontSize="28" />
+            <Button Content="Start" Height="143" HorizontalAlignment="Left" Margin="116,357,0,0" Name="pomodoroButton" VerticalAlignment="Top" Width="243" Click="CounterButtonClickHandler" FontSize="28" />
             <TextBlock Height="65" HorizontalAlignment="Left" Margin="28,259,0,0" Name="statusLabel" Text="" VerticalAlignment="Top" Width="420" FontSize="30" FontWeight="Bold" TextAlignment="Center" />
-            <Button Content="Add interruption" Height="90" HorizontalAlignment="Left" Margin="232,609,0,0" Name="addInterruptionsButton" VerticalAlignment="Top" Width="240" FontFamily="Segoe WP SemiLight" FontSize="23" Click="addInterruptionsButton_Click" />
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="16,619,0,0" Name="pomodorosLabel" Text="Pomodoros:" VerticalAlignment="Top" Width="132" FontSize="23" />
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="16,655,0,0" Name="interruptionsLabel" Text="Interruptions:" VerticalAlignment="Top" Width="132" FontSize="23" />
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="154,619,0,0" Name="pomodorosCount" Text="0" VerticalAlignment="Top" Width="48" TextAlignment="Right" FontSize="23" FontFamily="Segoe WP Semibold" />
-            <TextBlock Height="30" HorizontalAlignment="Left" Margin="154,655,0,0" Name="interruptionsCount" Text="0" VerticalAlignment="Top" Width="48" TextAlignment="Right" FontFamily="Segoe WP Semibold" FontSize="23" />
+            <Button Content="Add interruption" Height="90" HorizontalAlignment="Left" Margin="232,531,0,0" Name="addInterruptionsButton" VerticalAlignment="Top" Width="240" FontFamily="Segoe WP SemiLight" FontSize="23" Click="addInterruptionsButton_Click" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="16,541,0,0" Name="pomodorosLabel" Text="Pomodoros:" VerticalAlignment="Top" Width="132" FontSize="23" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="16,577,0,0" Name="interruptionsLabel" Text="Interruptions:" VerticalAlignment="Top" Width="132" FontSize="23" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="154,541,0,0" Name="pomodorosCount" Text="0" VerticalAlignment="Top" Width="48" TextAlignment="Right" FontSize="23" FontFamily="Segoe WP Semibold" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="154,577,0,0" Name="interruptionsCount" Text="0" VerticalAlignment="Top" Width="48" TextAlignment="Right" FontFamily="Segoe WP Semibold" FontSize="23" />
         </Grid>
     </Grid>
     
-    <!-- Sample code showing usage of ApplicationBar
+    <!-- Sample code showing usage of ApplicationBar -->
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"></shell:ApplicationBarIconButton>
-            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"></shell:ApplicationBarIconButton>
-            <shell:ApplicationBar.MenuItems>
-                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"></shell:ApplicationBarMenuItem>
-                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"></shell:ApplicationBarMenuItem>
-            </shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBarIconButton Click="help_button_Click"  x:Name="help_button" IconUri="/icons/appbar.questionmark.rest.png" Text="Help"></shell:ApplicationBarIconButton>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
-    -->
+    <!-- -->
 
 
 </phone:PhoneApplicationPage>

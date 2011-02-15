@@ -72,10 +72,15 @@ namespace Tomatito
         // Code to execute on Unhandled Exceptions
         private void Application_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
-            if (System.Diagnostics.Debugger.IsAttached)
+            try
             {
-                // An unhandled exception has occurred; break into the debugger
-                System.Diagnostics.Debugger.Break();
+                if (System.Diagnostics.Debugger.IsAttached)
+                {
+                    // An unhandled exception has occurred; break into the debugger
+                    System.Diagnostics.Debugger.Break();
+                }
+            }catch
+            {
             }
         }
 
